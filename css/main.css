@@ -787,7 +787,14 @@ footer {
     line-height: normal; }
   .info__grid {
     margin-top: 30px;
-    grid-row-gap: 30px; } }
+    grid-row-gap: 30px; }
+  h1.title span {
+    border-bottom: 5px solid #CB903B;
+    line-height: 38px; }
+  h1.title span:after {
+    height: 5px;
+    bottom: 5px;
+    display: none; } }
 
 @media screen and (max-width: 1200px) {
   header, footer {
@@ -846,9 +853,6 @@ footer {
     height: 345px; }
   .section__ships p.price .icon {
     font-size: 17px; }
-  h1.title span:after {
-    height: 5px;
-    bottom: 5px; }
   .ships__items {
     margin-top: 0; }
   .ships__item {
