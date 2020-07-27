@@ -2,10 +2,10 @@
 
 $mailAdmin = "v.medvedev@upp.com.ru";
 
-$subject = "=?utf-8?B?" . base64_encode("Заявка c лендинга wakesurfing") . "?=";
+$subject = "=?utf-8?B?" . base64_encode("Заявка c лендинга jetskis") . "?=";
 
 $message = "<DOCTYPE html>";
-$message .= "<html><head><title>Заявка c лендинга wakesurfing</title></head>";
+$message .= "<html><head><title>Заявка c лендинга jetskis</title></head>";
 $message .= "<body>";
 $message .= "<ul><li>Имя: ".$_POST['name']. "</li>
             <li>Телефон: ".$_POST['phone']."</li>
